@@ -212,3 +212,12 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+/Libraries/glm/cmake
+/Libraries/glm/doc
+/Libraries/glm/glm/CMakeLists.txt
+/Libraries/glm/test
+/Libraries/glm/util
+/Libraries/glm/readme.txt
+/Libraries/glm/CMakeLists.txt
+/Libraries/glm/copying.txt
+/Libraries/glm/CTestConfig.cmake

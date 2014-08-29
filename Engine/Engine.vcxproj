@@ -10,6 +10,20 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\scene.cpp" />
+    <ClCompile Include="src\scenenode2d.cpp" />
+    <ClCompile Include="src\scenenode3d.cpp" />
+    <ClCompile Include="test\app.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\engine.h" />
+    <ClInclude Include="src\loadableobject.h" />
+    <ClInclude Include="src\scene.h" />
+    <ClInclude Include="src\scenenode2d.h" />
+    <ClInclude Include="src\scenenode3d.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8689FAF8-6F60-4325-AFFB-F350684A3432}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -41,6 +55,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <SourcePath>$(ProjectDir)\src;$(ProjectDir)\test;$(SourcePath)</SourcePath>
+    <IncludePath>$(ProjectDir)\src;$(ProjectDir)\test;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -52,6 +68,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -75,10 +92,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="app.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

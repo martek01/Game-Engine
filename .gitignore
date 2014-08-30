@@ -221,3 +221,12 @@ $RECYCLE.BIN/
 /Libraries/glm/CMakeLists.txt
 /Libraries/glm/copying.txt
 /Libraries/glm/CTestConfig.cmake
+/Libraries/glew/doc
+/Libraries/glew/lib/Release MX/Win32
+/Libraries/glew/LICENSE.txt
+/Libraries/glew/README.txt
+/Libraries/glew/TODO.txt
+/Libraries/glfw/docs/html
+/Libraries/glfw/lib-mingw
+/Libraries/glfw/lib-msvc110
+/Libraries/glfw/COPYING.txt

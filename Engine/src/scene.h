@@ -8,11 +8,13 @@
 #ifndef ENGINE_SCENE_H
 #define ENGINE_SCENE_H
 
+#include "loadableobject.h"
+
 namespace engine {
 	class SceneNode3D;
 	class SceneNode2D;
 
-	class Scene {
+	class Scene : public LoadableObject {
 	private:
 		SceneNode3D *_rootNode3D;
 		SceneNode2D *_rootNode2D;
@@ -20,10 +22,6 @@ namespace engine {
 	public:
 		Scene();
 		virtual ~Scene();
-
-		bool load();
-		void unload();
-		bool isLoaded() const;
 
 		void add(SceneNode3D *node);
 		void add(SceneNode2D *node);

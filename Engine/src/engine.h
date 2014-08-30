@@ -11,5 +11,6 @@
 #include "scene.h"
 #include "scenenode2d.h"
 #include "scenenode3d.h"
+#include "sceneobject3d.h"
 
 #endif /* ENGINE_ENGINE_H */

@@ -20,18 +20,6 @@ Scene::~Scene() {
 
 }
 
-bool Scene::load() {
-	return true;
-}
-
-void Scene::unload() {
-
-}
-
-bool Scene::isLoaded() const {
-	return true;
-}
-
 void Scene::add(SceneNode3D *node) {
 	_rootNode3D->add(node);
 }

@@ -11,19 +11,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\log.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\scene.cpp" />
     <ClCompile Include="src\scenenode2d.cpp" />
     <ClCompile Include="src\scenenode3d.cpp" />
+    <ClCompile Include="src\sceneobject2d.cpp" />
     <ClCompile Include="src\sceneobject3d.cpp" />
+    <ClCompile Include="src\window.cpp" />
     <ClCompile Include="test\app.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\engine.h" />
     <ClInclude Include="src\loadableobject.h" />
+    <ClInclude Include="src\log.h" />
     <ClInclude Include="src\scene.h" />
     <ClInclude Include="src\scenenode2d.h" />
     <ClInclude Include="src\scenenode3d.h" />
+    <ClInclude Include="src\sceneobject2d.h" />
     <ClInclude Include="src\sceneobject3d.h" />
     <ClInclude Include="src\window.h" />
   </ItemGroup>
@@ -60,13 +65,13 @@
     <LinkIncremental>true</LinkIncremental>
     <SourcePath>$(ProjectDir)\src;$(ProjectDir)\test;$(SourcePath)</SourcePath>
     <IncludePath>$(ProjectDir)\src;$(ProjectDir)\test;$(SolutionDir)\Libraries\glm;$(SolutionDir)\Libraries\glew\include;$(SolutionDir)\Libraries\glfw\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\Libraries\glew\lib\Release\x64;$(SolutionDir)\Libraries\glfw\lib-msvc120;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)\Libraries\glew\lib;$(SolutionDir)\Libraries\glfw\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(ProjectDir)\src;$(ProjectDir)\test;$(SolutionDir)\Libraries\glm;$(SolutionDir)\Libraries\glew\include;$(SolutionDir)\Libraries\glfw\include;$(IncludePath)</IncludePath>
     <SourcePath>$(ProjectDir)\src;$(ProjectDir)\test;$(SourcePath)</SourcePath>
-    <LibraryPath>$(SolutionDir)\Libraries\glew\lib\Release\x64;$(SolutionDir)\Libraries\glfw\lib-msvc120;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)\Libraries\glew\lib;$(SolutionDir)\Libraries\glfw\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

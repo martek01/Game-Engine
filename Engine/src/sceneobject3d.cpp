@@ -9,7 +9,7 @@
 
 using namespace engine;
 
-SceneObject3D::SceneObject3D(glm::vec3 position) {
+SceneObject3D::SceneObject3D(glm::vec3 position) : SceneNode3D() {
 	// set attributes
 	_position = position;
 	_scale = glm::vec3(1.0f);

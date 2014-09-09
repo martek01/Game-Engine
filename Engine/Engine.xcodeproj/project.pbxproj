@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C3CA30719BF4663005D2BAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CA2FB19BF4663005D2BAC /* main.cpp */; };
+		8C3CA30819BF4663005D2BAC /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CA2FC19BF4663005D2BAC /* scene.cpp */; };
+		8C3CA30919BF4663005D2BAC /* scenenode2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CA2FE19BF4663005D2BAC /* scenenode2d.cpp */; };
+		8C3CA30A19BF4663005D2BAC /* scenenode3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CA30019BF4663005D2BAC /* scenenode3d.cpp */; };
+		8C3CA30B19BF4663005D2BAC /* sceneobject3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CA30219BF4663005D2BAC /* sceneobject3d.cpp */; };
+		8C3CA30C19BF4663005D2BAC /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CA30619BF4663005D2BAC /* app.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C3CA2EA19BF4634005D2BAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C3CA2EC19BF4634005D2BAC /* Engine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Engine; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3CA2F919BF4663005D2BAC /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		8C3CA2FA19BF4663005D2BAC /* loadableobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadableobject.h; sourceTree = "<group>"; };
+		8C3CA2FB19BF4663005D2BAC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C3CA2FC19BF4663005D2BAC /* scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scene.cpp; sourceTree = "<group>"; };
+		8C3CA2FD19BF4663005D2BAC /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		8C3CA2FE19BF4663005D2BAC /* scenenode2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scenenode2d.cpp; sourceTree = "<group>"; };
+		8C3CA2FF19BF4663005D2BAC /* scenenode2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenenode2d.h; sourceTree = "<group>"; };
+		8C3CA30019BF4663005D2BAC /* scenenode3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scenenode3d.cpp; sourceTree = "<group>"; };
+		8C3CA30119BF4663005D2BAC /* scenenode3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenenode3d.h; sourceTree = "<group>"; };
+		8C3CA30219BF4663005D2BAC /* sceneobject3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sceneobject3d.cpp; sourceTree = "<group>"; };
+		8C3CA30319BF4663005D2BAC /* sceneobject3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sceneobject3d.h; sourceTree = "<group>"; };
+		8C3CA30419BF4663005D2BAC /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
+		8C3CA30619BF4663005D2BAC /* app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = app.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C3CA2E919BF4634005D2BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C3CA2E319BF4633005D2BAC = {
+			isa = PBXGroup;
+			children = (
+				8C3CA2F819BF4663005D2BAC /* Source */,
+				8C3CA30519BF4663005D2BAC /* Test */,
+				8C3CA2ED19BF4634005D2BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C3CA2ED19BF4634005D2BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CA2EC19BF4634005D2BAC /* Engine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C3CA2F819BF4663005D2BAC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CA2F919BF4663005D2BAC /* engine.h */,
+				8C3CA2FA19BF4663005D2BAC /* loadableobject.h */,
+				8C3CA2FB19BF4663005D2BAC /* main.cpp */,
+				8C3CA2FC19BF4663005D2BAC /* scene.cpp */,
+				8C3CA2FD19BF4663005D2BAC /* scene.h */,
+				8C3CA2FE19BF4663005D2BAC /* scenenode2d.cpp */,
+				8C3CA2FF19BF4663005D2BAC /* scenenode2d.h */,
+				8C3CA30019BF4663005D2BAC /* scenenode3d.cpp */,
+				8C3CA30119BF4663005D2BAC /* scenenode3d.h */,
+				8C3CA30219BF4663005D2BAC /* sceneobject3d.cpp */,
+				8C3CA30319BF4663005D2BAC /* sceneobject3d.h */,
+				8C3CA30419BF4663005D2BAC /* window.h */,
+			);
+			name = Source;
+			path = src;
+			sourceTree = "<group>";
+		};
+		8C3CA30519BF4663005D2BAC /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CA30619BF4663005D2BAC /* app.cpp */,
+			);
+			name = Test;
+			path = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C3CA2EB19BF4634005D2BAC /* Engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3CA2F519BF4634005D2BAC /* Build configuration list for PBXNativeTarget "Engine" */;
+			buildPhases = (
+				8C3CA2E819BF4634005D2BAC /* Sources */,
+				8C3CA2E919BF4634005D2BAC /* Frameworks */,
+				8C3CA2EA19BF4634005D2BAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Engine;
+			productName = Engine;
+			productReference = 8C3CA2EC19BF4634005D2BAC /* Engine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C3CA2E419BF4633005D2BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 8C3CA2E719BF4633005D2BAC /* Build configuration list for PBXProject "Engine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C3CA2E319BF4633005D2BAC;
+			productRefGroup = 8C3CA2ED19BF4634005D2BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C3CA2EB19BF4634005D2BAC /* Engine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C3CA2E819BF4634005D2BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3CA30819BF4663005D2BAC /* scene.cpp in Sources */,
+				8C3CA30719BF4663005D2BAC /* main.cpp in Sources */,
+				8C3CA30919BF4663005D2BAC /* scenenode2d.cpp in Sources */,
+				8C3CA30C19BF4663005D2BAC /* app.cpp in Sources */,
+				8C3CA30B19BF4663005D2BAC /* sceneobject3d.cpp in Sources */,
+				8C3CA30A19BF4663005D2BAC /* scenenode3d.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C3CA2F319BF4634005D2BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8C3CA2F419BF4634005D2BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8C3CA2F619BF4634005D2BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C3CA2F719BF4634005D2BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C3CA2E719BF4633005D2BAC /* Build configuration list for PBXProject "Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3CA2F319BF4634005D2BAC /* Debug */,
+				8C3CA2F419BF4634005D2BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3CA2F519BF4634005D2BAC /* Build configuration list for PBXNativeTarget "Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3CA2F619BF4634005D2BAC /* Debug */,
+				8C3CA2F719BF4634005D2BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C3CA2E419BF4633005D2BAC /* Project object */;
+}
